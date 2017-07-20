@@ -17,7 +17,12 @@ colors:
 header {
   background-color: #ff8523;
   background-size: 100px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#logo{
+  margin: 10px;
 }
 
 .main_navigation>a{
@@ -30,12 +35,18 @@ header {
 }
 
 .main_navigation {
+  margin-top: 10px;
   margin-left: 10px;
   border-color: white;
 }
 
 #page_content li{
   font-weight: bold;
+}
+
+#page_content{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h2{
@@ -112,6 +123,10 @@ form {
   border-radius: 5px;
   margin-right: 30px;
 }
+
+form div label{
+  padding-left: 20px;
+}
 .name {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -145,7 +160,6 @@ form div{
 .city_container {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 20px;
   font-weight: bold;
   background-color: #dddddd;
 }
@@ -154,13 +168,17 @@ form div{
   margin-left: 20px;
 }
 
+div .label {
+  margin-left: 200px;
+}
+
 section div{
   font-weight: bold;
 }
 
 
 textarea {
-  padding-right: 375px;
+  padding-right: 350px;
   margin-top: 10px;
   border: 1px solid blue;
   font-size: 15px;
@@ -182,4 +200,8 @@ label{
   margin-bottom: 10px;
   font-size: 15px;
   border-style: none;
+}
+
+.bio{
+  padding-left: 100px;
 }
